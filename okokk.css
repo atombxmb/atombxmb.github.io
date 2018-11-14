@@ -1,0 +1,54 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.satan {
+		position:absolute;
+		top: 10px;
+		left: 800px;
+		z-index: 2;
+		width: 250px;
+        height: auto;
+	}
+	
+.atombxmb {
+	position:absolute;
+    top: 250px;
+	left: 857px;
+	z-index: 2;
+	color: #EE6C90;
+	font-family: dense;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+@font-face {
+font-family: "dense";
+src: url("dense.otf");
+}
+
+a.link:link
+{
+   color: #EE6C90;
+   text-decoration: none;
+}
+a.link:visited
+{
+   color: #EE6C90;
+   text-decoration: none;
+}
+a.link:hover
+{
+   color: #EE6C90;
+   text-decoration: none;
+}
+a.link:active
+{
+   color: #EE6C90;
+   text-decoration: none;
+
+
+	
