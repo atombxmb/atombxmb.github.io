@@ -31,7 +31,7 @@ overflow:hidden;
 	left: 50vw;
 	transform: translateX(-50%);
 	z-index: 2;
-	color: #000080;
+	color: #003366;
 	font-family: dense;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
