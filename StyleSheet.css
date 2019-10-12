@@ -93,5 +93,38 @@ a.link:active
   0%   {opacity: 0; top: 44%;}
   100% {opacity: 1; top: 10px;}
 }
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,1);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    text-align: center; 
+    color: white; 
+    font-size: 1.4vw;
+    text-shadow: 0.13vw 0.13vw 0 rgba(56, 122, 193, 0.6), -0.13vw -0.13vw 0 rgba(255, 0, 75, 0.6);
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+
    
  #EE6C90
