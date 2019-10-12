@@ -31,7 +31,7 @@ overflow:hidden;
 	left: 50vw;
 	transform: translateX(-50%);
 	z-index: 2;
-	color: #003366;
+	color: #FFFFFF;
 	font-family: dense;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
@@ -43,7 +43,7 @@ overflow:hidden;
 	left: 50vw;
 	transform: translateX(-50%);
 	z-index: 2;
-	color: #000080;
+	color: #FFFFFF;
 	font-family: dense;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
@@ -55,7 +55,7 @@ overflow:hidden;
 	left: 50vw;
 	transform: translateX(-50%);
 	z-index: 2;
-	color: #003366;
+	color: #FFFFFF;
 	font-family: dense;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
@@ -71,12 +71,12 @@ src: url("dense.otf");
 
 a.link:link
 {
-   color: #003366;
+   color: #FFFFFF;
    text-decoration: none;
 }
 a.link:visited
 {
-   color: #003366;
+   color: #FFFFFF;
    text-decoration: none;
 }
 a.link:hover
@@ -86,7 +86,7 @@ a.link:hover
 }
 a.link:active
 {
-   color: #003366;
+   color: #FFFFFF;
    text-decoration: none;
 }
 @keyframes imageAnimation {
