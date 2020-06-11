@@ -39,7 +39,7 @@ body {
 .steam {
     position: absolute;
     font-size: 50px;
-    top: 590px;
+    top: 390px;
     left: 50vw;
     transform: translateX(-50%);
     z-index: 2;
@@ -51,7 +51,7 @@ body {
 .discord {
     position: absolute;
     font-size: 50px;
-    top: 550px;
+    top: 350px;
     left: 50vw;
     transform: translateX(-50%);
     z-index: 2;
