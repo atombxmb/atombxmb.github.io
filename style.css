@@ -72,6 +72,8 @@ body {
     transform: translateX(-50%) translateY(-50%);
     z-index: -1
 }
+#discord 
+
 a:link {
     color: white; 
     background-color: transparent; 
