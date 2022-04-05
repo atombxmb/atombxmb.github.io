@@ -30,7 +30,7 @@ body {
     top: 52%;
     width:  3vw;
     height: 3vw;
-    transform: translate(-50%, -50%);
+    transform: translate(-80%, -80%);
 }
 #playing {
     color: white;
