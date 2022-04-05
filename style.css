@@ -22,16 +22,7 @@ body {
 }
 
 }
-#logo {
-    color: white;
-    position: absolute;
-    display: block;
-    left: -10%;
-    top: 52%;
-    width:  3vw;
-    height: 3vw;
-    transform: translate(-80%, -80%);
-}
+
 #playing {
     color: white;
     text-shadow: 0.17vw 0.17vw 0 rgba(56, 122, 193, 0.7), -0.15vw -0.15vw 0 rgba(255, 0, 75, 0.6);
@@ -72,7 +63,7 @@ body {
     transform: translateX(-50%) translateY(-50%);
     z-index: -1
 }
-#discord 
+
 
 a:link {
     color: white; 
