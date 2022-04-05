@@ -1,7 +1,7 @@
 // Generate array of songs and generate a random number from array.
 var numberOfSongs = 11;
 var sound = new Array(numberOfSongs)
-sound[0] = "./music/joji x shamana - BESIDJU.mp3"
+sound[0] = "./music/besidju.mp3"
 sound[1] = "./music/Her.mp3"
 sound[2] = "./music/Thom.mp3"
 sound[3] = "./music/unsaved info.mp3"
