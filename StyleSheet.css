@@ -1,99 +1,85 @@
 body {
-    overflow:hidden;
-    font-family: dense;
+overflow:hidden;
 }
- 
+
 #myVideo {
     position: fixed;
     right: 0;
     left: 50%;
-    top: 50%;
-    bottom: 0;
-    min-width: 100%;
+	top: 50%;
+	bottom: 0;
+    min-width: 100%; 
     min-height: 100%;
-    transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 }
- 
+
 .kanna {
-    position:absolute;
-    top: 10px;
-    left: 50vw;
-    transform: translateX(-50%);
-    z-index: 2;
-    width: 1000px;
-    height: auto;
-   
-}
- 
-#coleus {
-    position: absolute;
-    font-size: 70px;
+		position:absolute;
+		top: 10px;
+		left: 50vw;
+		transform: translateX(-50%);
+		z-index: 2;
+		width: 1000px;
+        height: auto;
+		
+	}
+	
+.coleus {
+	position: absolute;
+	font-size: 70px; 
     top: 480px;
-    left: 50vw;
-    transform: translateX(-50%);
-    z-index: 2;
-    color: #FFFFFF;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	left: 50vw;
+	transform: translateX(-50%);
+	z-index: 2;
+	color: white;
+	font-family: dense;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
- 
-.steam {
-    position: absolute;
-    font-size: 50px;
-    top: 590px;
-    left: 50vw;
-    transform: translateX(-50%);
-    z-index: 2;
-    color: #FFFFFF;
-    font-family: dense;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+.steam { 
+	position: absolute;
+	font-size: 18px; 
+    top: -8px;
+	left: 1.5vw;
+	transform: translateX(-50%);
+	z-index: 2;
+	color: black;
+	
+	
 }
- 
-.discord {
-    position: absolute;
-    font-size: 50px;
+
+.discord { 
+	position: absolute;
+	font-size: 50px; 
     top: 550px;
-    left: 50vw;
-    transform: translateX(-50%);
-    z-index: 2;
-    color: #FFFFFF;
-    font-family: dense;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	left: 50vw;
+	transform: translateX(-50%);
+	z-index: 2;
+	color: #ffbf00;
+	font-family: dense;
+	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
- 
+
 h2 {
-    position: absolute;
+  position: absolute;
 }
- 
-@font-face {
-    font-family: "dense";
-    src: url("dense.otf");
+
+
 }
- 
-a:link
-{
-    color: #FFFFFF;
-    text-decoration: none;
-}
-a:visited
-{
-    color: #FFFFFF;
-    text-decoration: none;
-}
-a:hover
-{
-    color: black;
-    text-decoration: none;
-}
-a:active
-{
-    color: #FFFFFF;
-    text-decoration: none;
+
+.cloc {
+color: #ffbf00;
+left: 20vw;
+	}
+
+
+
 }
 @keyframes imageAnimation {
-    0%   {opacity: 0; top: 44%;}
-    100% {opacity: 1; top: 10px;}
+  0%   {opacity: 0; top: 44%;}
+  100% {opacity: 1; top: 10px;}
 }
- 
+
 .modalDialog {
     position: fixed;
     top: 0px;
@@ -107,6 +93,7 @@ a:active
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
+	
 }
 .modalDialog:target {
     opacity:1;
@@ -115,12 +102,13 @@ a:active
  
 .modalDialog > div {
     text-align: center;
-    color: white;
     font-size: 1.4vw;
     position: relative;
     top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+	font-family: dense;
+	color: #ffbf00;
    
 }
  
@@ -129,5 +117,7 @@ a:active
 }
 
 
+   
+ #EE6C90
    
  #EE6C90
