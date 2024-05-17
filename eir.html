@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link id="icon" href="fuct.jpg">
+    <title> eir. </title>
+    <link href="StyleSheet.css" type="text/css" rel="Stylesheet"
+</head>
+    <div style="absolute;text-align:right;">
+        	
+    <body onload="clock();" >
+      
+            <b id="t-0">00/00/0000</b>
+            
+            <b id="t-2">00:00:00</b>
+        </div>
+
+    </body>
+	<body>
+        <h1 class="steam"><a" > eir. </a></h1>
+         <html>
+<head> </head>
+</body>
+<body onload=display_ct();>
+  <span id='ct' ></span>
+</body>
+</html>
+
+        
+	
+        
+		
+        
+	<script>
+	function clock(){
+    window.rt=1000;r=0;
+    document.getElementById('t-0').textContent=new Date().toLocaleDateString(); // today
+    var m=setInterval(function(){
+        if(r>84600){clearInterval(m);}
+        r++;
+        document.getElementById('t-2').textContent=new Date().toLocaleTimeString(); // clock
+    }, window.rt);
+}
+			</script>
+        </body>
